@@ -1,0 +1,7 @@
+<?php
+    $weatherUrl = 'http://tianqi.moji.com/weather/china/hunan/tianxin-district';
+
+    $list_id = '';
+    $x_access_token = '';
+    $x_client_id = '';
+?>
