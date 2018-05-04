@@ -1,0 +1,55 @@
+<style id="8c45b60486a818375c6176dc95027d9a" type="text/css" data-requiremodule="application/_layout" data-requirecontext="styles">html,button,input,select,textarea{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+*{padding:0;margin:0;text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-moz-user-select:-moz-none;-ms-touch-action:none;text-rendering:optimizeLegibility}
+</style><style type="text/css"><style id="0018036a7c4a9c093a7820f571cda046" type="text/css" data-requiremodule="listbar" data-requirecontext="styles">#list-toolbar{position:relative;height:45px;min-height:45px;display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex}
+.background-06 #list-toolbar{background:#668964}
+#list-toolbar h1{-webkit-box-flex:1;-moz-box-flex:1;-o-box-flex:1;box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;font-size:20px;color:#fff;padding:10px 14px;font-weight:200;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+</style><style id="6ee42dbf2dfb0f6cd6e334e3414c2cfa" type="text/css" data-requiremodule="taskItem" data-requirecontext="styles">.taskItem{height:47px;list-style:none}
+.taskItem.active .taskItem-body,.taskItem.selected .taskItem-body{background:#e1f2fe}
+.taskItem.blur{filter:blur(50px);opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+.taskItem.collapsed{height:0;opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60);overflow:hidden}
+.taskItem.first-task-position{padding-top:46px!important}
+.taskItem.first-task-position-next{padding-bottom:46px!important}
+.taskItem.animate-up{height:0;opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60);overflow:hidden!important}
+.taskItem.animate-down{height:47px!important;opacity:1;-ms-filter:none;filter:none}
+.taskItem.animate-empty-task{margin-top:40px}
+.taskItem.animate-empty-task-close{margin-top:0}
+.taskItem.fall-out{z-index:5!important;margin-top:65px;opacity:0!important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"!important;filter:alpha(opacity=0)!important;background:red!important}
+.taskItem.return-up{margin-top:-55px;opacity:0!important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"!important;filter:alpha(opacity=0)!important}
+.taskItem.fall-in{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+.taskItem.scale-up{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.taskItem.dragging{z-index:9999!important;width:300px;overflow:visible}
+.taskItem.done{opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60);list-style:none}
+.taskItem.done .taskItem-titleMeta-info{font-size:10px;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.taskItem.done .taskItem-titleWrapper-title{text-decoration:line-through}
+.taskItem-body{background:#fff;list-style:none;height:46px;-webkit-border-radius:3px;border-radius:3px;display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;padding-left:4px;padding-right:4px;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;position:relative}
+.taskItem-body .taskItem-checkboxWrapper{padding-left:8px;padding-right:8px;height:20px}
+.taskItem-body .starred-wrapper{width:22px;padding-left:4px;padding-right:4px;fill:#d74e48}
+.taskItem-body .star-wrapper{padding-left:6px;padding-right:6px;fill:rgba(0,0,0,.3)}
+.taskItem-body .recurrence-wrapper{fill:#328ad6;height:14px;padding-left:2px;padding-right:2px}
+.taskItem-body .recurrence-wrapper svg{width:14px;height:14px}
+.taskItem-body .recurrence-wrapper.overdue{fill:#b3312d}
+.taskItem-body .recurrence-wrapper.overdue:hover{cursor:default}
+.taskItem-body .recurrence-wrapper.overdue{color:#b3312d}
+.taskItem-body .conversations-wrapper{fill:rgba(0,0,0,.3);height:20px}
+.taskItem-body .conversations-wrapper.has-unread-comments svg g:first-child{display:none}
+.taskItem-body .conversations-wrapper.has-unread-comments svg g:last-child path{opacity:1;-ms-filter:none;filter:none;fill:#328ad6}
+.taskItem-body .attachment-wrapper{fill:rgba(0,0,0,.3);width:18px;height:20px}
+.taskItem-titleWrapper{white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;font-size:15px;font-weight:500;color:#262626;cursor:default;position:relative;top:-1px;-webkit-box-flex:1;-moz-box-flex:1;-o-box-flex:1;box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}
+.taskItem-titleWrapper a{color:#328ad6}
+.taskItem-titleWrapper a.hash-blocked,.taskItem-titleWrapper a.hash-bug,.taskItem-titleWrapper a.hash-critical,.taskItem-titleWrapper a.hash-more-information,.taskItem-titleWrapper a.hash-regression{color:#d74e48}
+.taskItem-titleWrapper a.hash-merged{color:#f88017}
+.taskItem-titleWrapper a.hash-in-qa{color:#67ae2b}
+.taskItem-titleWrapper a.hash-in-progress,.taskItem-titleWrapper a.hash-in-review{color:#e29600}
+.taskItem-titleWrapper a.hash-blocked,.taskItem-titleWrapper a.hash-critical,.taskItem-titleWrapper a.hash-more-information{font-weight:700}
+.taskItem-progress{position:absolute;top:0;left:0;right:0;height:100%;opacity:1;-ms-filter:none;filter:none;-webkit-transition:opacity 225ms ease;-moz-transition:opacity 225ms ease;-o-transition:opacity 225ms ease;-ms-transition:opacity 225ms ease;transition:opacity 225ms ease;pointer-events:none}
+.taskItem-progress-bar{z-index:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;top:0;height:100%;width:0;-webkit-transition:width 225ms ease;-moz-transition:width 225ms ease;-o-transition:width 225ms ease;-ms-transition:width 225ms ease;transition:width 225ms ease;border-right-width:1px;border-right-style:solid}
+.taskItem-progress-bar.completed{border-right:none}
+.taskItem-duedate{font-size:12px;color:#328ad6;max-width:200px;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.taskItem-duedate.overdue{color:#b3312d}
+.attachment-wrapper,.conversations-wrapper{padding-left:2px;padding-right:2px}
+.taskItem-assign,.taskItem-duedate{padding-left:4px;padding-right:4px}
+.clone-title{color:#262626}
+.clone-title a{color:#328ad6}
+@media all and (max-width:550px){.taskItem a.hash{width:1ch;display:-webkit-inline-box;display:-moz-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-box;display:inline-flex;overflow:hidden}
+}
+</style>
