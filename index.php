@@ -7,7 +7,7 @@
         function myrefresh(){
             window.location.reload();
         }
-        setTimeout('myrefresh()',<?php $autoRefreshRate?>);
+        setTimeout('myrefresh()',<?php echo $autoRefreshRate ?>);
     </script>
 </head>
 <body style="height: 100%">
