@@ -7,7 +7,7 @@
         function myrefresh(){
             window.location.reload();
         }
-        setTimeout('myrefresh()',<?php $autoRefreshRate?>); //refresh after 1000ms
+        setTimeout('myrefresh()',<?php $autoRefreshRate?>);
     </script>
 </head>
 <body style="height: 100%">
