@@ -1,6 +1,9 @@
 <?php
+    refresh after 60s //60000ms
+    $autoRefreshRate = 60000;
+    # get weather from a webpage
     $weatherUrl = 'http://tianqi.moji.com/weather/china/hunan/tianxin-district';
-
+    # get to-do list
     $list_id = '';
     $x_access_token = '';
     $x_client_id = '';

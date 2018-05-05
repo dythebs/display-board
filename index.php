@@ -1,5 +1,15 @@
+<?php include "./config.php"?>
 <html style="height: 100%">
-<head></head>
+<head>
+    <title>Display-Board</title>
+    <!--auto refresh-->
+    <script language="JavaScript">
+        function myrefresh(){
+            window.location.reload();
+        }
+        setTimeout('myrefresh()',<?php $autoRefreshRate?>); //refresh after 1000ms
+    </script>
+</head>
 <body style="height: 100%">
     <div style="width: 50%;float: left;"><?php include "./wunderlist/wunderlist.php"?></div>
     <div style="width: 50%;float: left;"><?php include "./weather/weather.php"?></div>
