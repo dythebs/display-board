@@ -4,6 +4,7 @@
     # get weather from a webpage
     $weatherUrl = 'http://tianqi.moji.com/weather/china/hunan/tianxin-district';
     # get to-do list
+    $listTitle = '还没干的';
     $list_id = '';
     $x_access_token = '';
     $x_client_id = '';

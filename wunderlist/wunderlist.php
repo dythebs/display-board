@@ -4,7 +4,7 @@
 
     <div id="tasks" role="main">
         <div id="list-toolbar">
-            <h1 class="title">还没干的</h1>
+            <h1 class="title"><?php echo $listTitle ?></h1>
         </div>
     </div>
 
