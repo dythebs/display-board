@@ -43,6 +43,12 @@
                 array_multisort($key_arrays,$sort_order,$sort_type,$arrays);
                 return $arrays;
             }
+            #make sure every object have the date property so that can sort by it
+            for($i = 0 ; $i < count($arr) ; $i++){
+                if(!array_key_exists('due_date',$arr[$i])){
+                    $arr[$i]['due_date'] = date("Y-m-d");
+                }
+            }
 
             $arr = my_sort($arr,'due_date');
 
